@@ -30,6 +30,9 @@ public class Person
 
     //Constructors
 
+    /**
+     * The default constructor sets the name to unknown and age to 0
+     */
     public Person()
     {
        this.m_name = "unknown";
@@ -64,7 +67,7 @@ public class Person
 
     public void saysHello()
     {
-
+System.out.println(this.m_name + " says hello!");
     }
 
     /**
@@ -81,4 +84,4 @@ public class Person
         return outputString;
     }
 }
-}
+
