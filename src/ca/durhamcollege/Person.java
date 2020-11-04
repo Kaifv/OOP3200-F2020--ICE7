@@ -1,3 +1,10 @@
+/**
+ * @author Kaif Vakil
+ * @studentID 100772820
+ * @Date 4th November 2020.
+ * @version 0.0.1
+ */
+
 package ca.durhamcollege;
 
 public class Person
@@ -71,7 +78,7 @@ System.out.println(this.m_name + " says hello!");
     }
 
     /**
-     *THis methid overrides built-in to string method and returns the person properties
+     *THis method overrides built-in to string method and returns the person properties
      * @return {String}
      */
     @Override
